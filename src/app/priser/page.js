@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Pricing = () => {
+const Priser = () => {
   return (
     <>
         <h1 className='p-8 font-bold text-xl'>Priser for våre tjenester</h1>
@@ -30,4 +30,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default Priser
