@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export default function Om() {
   return (
-    <div>
+    <div className=' flex flex-col justify-center'>
       <h1 className='p-8 font-bold text-xl'>Om Tryggbo AS</h1>
-      <p className='p-4 m-4 text-lg w-5/6'>
+      <p className='p-4 m-4 text-lg lg:w-1/2 md:w-5/6'>
       Tryggbo AS ble etablert i 2000 og har to heltidsansatte. 
       Vi har gjennom lang og variert yrkeserfaring opparbeidet 
       god kompetanse innen offentlig boligforvaltning, ergonomisk 
       tilpasning av boliger, samt fått en god oversikt over det private boligmarkedet.
       </p>
-      <p className='p-4 m-4 text-lg w-5/6'>
+      <p className='p-4 m-4 text-lg lg:w-1/2 md:w-5/6'>
       Vi samarbeider med erfarne eiendomsmeglere og andre aktører i boligmarkedet. 
       Vi har også kontakt med advokater for bistand i juridiske spørsmål, 
       samt øvrige instanser som kan tilby økonomisk rådgivning og formidling 

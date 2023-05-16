@@ -11,7 +11,7 @@ const Footer = () => {
             <p>Epost: <Link className='hover:underline' href="mailto:mona@tryggbo.as">mona@tryggbo.as</Link> / <Link className='hover:underline' href="mailto:ingeborg@tryggbo.as">ingeborg@tryggbo.as</Link></p>
         </div>
         <div className='flex flex-col'>
-            <Link className='hover:underline text-xl m-2 p-2' href='/'>TRYGGBO AS - Boligkompetanse -</Link> 
+            <Link className='hover:underline text-xl m-2 p-2' href='/'>TRYGGBO AS - Boligkompetanse</Link> 
             <Link className='hover:underline text-xl m-2 p-2' href="/om-oss">Om Oss</Link>
             <Link className='hover:underline text-xl m-2 p-2' href="/vi-tilbyr">Vi tilbyr</Link>
             <Link className='hover:underline text-xl m-2 p-2' href="/priser">Priser</Link>
