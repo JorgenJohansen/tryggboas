@@ -22,13 +22,13 @@ export default function Om() {
           <Image src={'/mona.jpeg'} width={150} height={150}></Image>
           <p className='p-2 m-2 font-bold'>Mona Ødegård</p>
           <p className='p-2 m-2'>Ergoterapeut/Boligkonsulent</p>
-          <Link className='p-2 m-2' href="mailto:mona@tryggbo.as">mona@tryggbo.as</Link>
+          <Link className='p-2 m-2 hover:underline' href="mailto:mona@tryggbo.as">mona@tryggbo.as</Link>
         </div>
         <div className='m-4 p-4'>
           <Image src={'/ingeborg.jpeg'} width={150} height={150}></Image>
           <p className='p-2 m-2 font-bold'>Ingeborg Nalsund</p>
           <p className='p-2 m-2'>Sosionom/Bedriftsøkonom</p>
-          <Link className='p-2 m-2' href="mailto:ingeborg@tryggbo.as">ingeborg@tryggbo.as</Link>
+          <Link className='p-2 m-2 hover:underline' href="mailto:ingeborg@tryggbo.as">ingeborg@tryggbo.as</Link>
         </div>
       </div>
       
