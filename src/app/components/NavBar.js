@@ -18,7 +18,7 @@ const NavBar = () => {
     </nav>
 
     </div>
-    <div className='flex flex-col items-end px-6 py-4  justify-center md:hidden'>
+    <div className='flex flex-col items-end px-6 py-4  justify-center md:hidden text-white bg-slate-800'>
       <Menu>
       <Menu.Button>
         <FontAwesomeIcon icon={faBars}
@@ -27,19 +27,19 @@ const NavBar = () => {
       </Menu.Button>
       <Menu.Items className="flex flex-col m-4 p-4">
           <Menu.Item >
-            <Link href="/" className='hover:underline text-xl'>TRYGGBO AS - Boligkompetanse</Link>
+            <Link href="/" className='hover:underline text-xl m-2'>TRYGGBO AS - Boligkompetanse</Link>
           </Menu.Item>
           <Menu.Item>
-            <Link href="/om-oss" className='hover:underline text-xl'>Om Oss</Link>
+            <Link href="/om-oss" className='hover:underline text-xl m-2'>Om Oss</Link>
           </Menu.Item>
           <Menu.Item>
-            <Link href="/vi-tilbyr" className='hover:underline text-xl'>Vi tilbyr</Link>
+            <Link href="/vi-tilbyr" className='hover:underline text-xl m-2'>Vi tilbyr</Link>
           </Menu.Item>
           <Menu.Item>
-            <Link href="/priser" className='hover:underline text-xl'>Priser</Link>
+            <Link href="/priser" className='hover:underline text-xl m-2'>Priser</Link>
           </Menu.Item>
           <Menu.Item>
-            <Link href="/kontakt" className='hover:underline text-xl'>Kontakt</Link>
+            <Link href="/kontakt" className='hover:underline text-xl m-2'>Kontakt</Link>
           </Menu.Item>
         </Menu.Items>
       </Menu>
